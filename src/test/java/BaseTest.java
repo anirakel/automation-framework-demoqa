@@ -10,7 +10,6 @@ public class BaseTest {
     UserData userData = Utils.fromJson("C:\\Users\\Acer\\Desktop\\Java Projects\\Lesson 1\\ListWebPage\\src\\main\\resources\\userData.json", UserData.class);
     SoftAssert softAssert = new SoftAssert();
     protected WebDriver driver;
-    
 
     @BeforeMethod
     public void setUp() {
